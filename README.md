@@ -1,4 +1,0 @@
-FallingBricks
-=============
-
-Simple collision engine

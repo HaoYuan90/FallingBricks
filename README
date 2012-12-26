@@ -1,0 +1,7 @@
+Application intended for Ipad
+
+It features a simple collision engine that supports rectangle-rectangle as well as rectangle-circle collisions.
+
+Algorithm used is an approximation to separating axis. 
+
+******* intend to use the real thing and try to make engine more efficient over time ********

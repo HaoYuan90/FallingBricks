@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0F1F6F14D5DAB600ABA8B5 /* CircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0F1F6E14D5DAB600ABA8B5 /* CircleController.m */; };
+		AA0F1F7214D5DAC800ABA8B5 /* CircleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0F1F7114D5DAC800ABA8B5 /* CircleModel.m */; };
+		AA0F1F7514D5DAD600ABA8B5 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0F1F7414D5DAD600ABA8B5 /* CircleView.m */; };
+		AA0F1F7814D5E93600ABA8B5 /* ObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0F1F7714D5E93600ABA8B5 /* ObjectModel.m */; };
+		AA248C9314BB35EC004B6C8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA248C9214BB35EC004B6C8A /* UIKit.framework */; };
+		AA248C9514BB35EC004B6C8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA248C9414BB35EC004B6C8A /* Foundation.framework */; };
+		AA248C9714BB35EC004B6C8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA248C9614BB35EC004B6C8A /* CoreGraphics.framework */; };
+		AA248C9D14BB35EC004B6C8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA248C9B14BB35EC004B6C8A /* InfoPlist.strings */; };
+		AA248C9F14BB35EC004B6C8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA248C9E14BB35EC004B6C8A /* main.m */; };
+		AA248CA314BB35EC004B6C8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA248CA214BB35EC004B6C8A /* AppDelegate.m */; };
+		AA248CA614BB35EC004B6C8A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA248CA414BB35EC004B6C8A /* MainStoryboard.storyboard */; };
+		AA248CA914BB35EC004B6C8A /* FallingBricksController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA248CA814BB35EC004B6C8A /* FallingBricksController.m */; };
+		AA248CB114BB35EC004B6C8A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA248CB014BB35EC004B6C8A /* SenTestingKit.framework */; };
+		AA248CB214BB35EC004B6C8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA248C9214BB35EC004B6C8A /* UIKit.framework */; };
+		AA248CB314BB35EC004B6C8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA248C9414BB35EC004B6C8A /* Foundation.framework */; };
+		AA248CBB14BB35EC004B6C8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA248CB914BB35EC004B6C8A /* InfoPlist.strings */; };
+		AA248CBE14BB35EC004B6C8A /* FallingBricksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA248CBD14BB35EC004B6C8A /* FallingBricksTests.m */; };
+		AA248CC914BB3672004B6C8A /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = AA248CC814BB3672004B6C8A /* Engine.m */; };
+		AA248CDA14BB3880004B6C8A /* BrickModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA248CD914BB387F004B6C8A /* BrickModel.m */; };
+		AA248CDD14BB3B8F004B6C8A /* BrickView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA248CDC14BB3B8F004B6C8A /* BrickView.m */; };
+		AA248CE714BC771B004B6C8A /* Matrix2D.m in Sources */ = {isa = PBXBuildFile; fileRef = AA248CE414BC771B004B6C8A /* Matrix2D.m */; };
+		AA248CE814BC771B004B6C8A /* Vector2D.m in Sources */ = {isa = PBXBuildFile; fileRef = AA248CE614BC771B004B6C8A /* Vector2D.m */; };
+		AAC4ACCB14BE012800C17844 /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC4ACCA14BE012800C17844 /* Edge.m */; };
+		AAFE0A6414D557F500619DC5 /* BrickController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFE0A6314D557F500619DC5 /* BrickController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA248CB414BB35EC004B6C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA248C8514BB35EC004B6C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA248C8D14BB35EC004B6C8A;
+			remoteInfo = FallingBricks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA0F1F6D14D5DAB600ABA8B5 /* CircleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleController.h; sourceTree = "<group>"; };
+		AA0F1F6E14D5DAB600ABA8B5 /* CircleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleController.m; sourceTree = "<group>"; };
+		AA0F1F7014D5DAC800ABA8B5 /* CircleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleModel.h; sourceTree = "<group>"; };
+		AA0F1F7114D5DAC800ABA8B5 /* CircleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleModel.m; sourceTree = "<group>"; };
+		AA0F1F7314D5DAD600ABA8B5 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		AA0F1F7414D5DAD600ABA8B5 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		AA0F1F7614D5E93500ABA8B5 /* ObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectModel.h; sourceTree = "<group>"; };
+		AA0F1F7714D5E93600ABA8B5 /* ObjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectModel.m; sourceTree = "<group>"; };
+		AA248C8E14BB35EC004B6C8A /* FallingBricks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallingBricks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA248C9214BB35EC004B6C8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA248C9414BB35EC004B6C8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA248C9614BB35EC004B6C8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA248C9A14BB35EC004B6C8A /* FallingBricks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FallingBricks-Info.plist"; sourceTree = "<group>"; };
+		AA248C9C14BB35EC004B6C8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA248C9E14BB35EC004B6C8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA248CA014BB35EC004B6C8A /* FallingBricks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FallingBricks-Prefix.pch"; sourceTree = "<group>"; };
+		AA248CA114BB35EC004B6C8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA248CA214BB35EC004B6C8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA248CA514BB35EC004B6C8A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AA248CA714BB35EC004B6C8A /* FallingBricksController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FallingBricksController.h; sourceTree = "<group>"; };
+		AA248CA814BB35EC004B6C8A /* FallingBricksController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FallingBricksController.m; sourceTree = "<group>"; };
+		AA248CAF14BB35EC004B6C8A /* FallingBricksTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallingBricksTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA248CB014BB35EC004B6C8A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA248CB814BB35EC004B6C8A /* FallingBricksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FallingBricksTests-Info.plist"; sourceTree = "<group>"; };
+		AA248CBA14BB35EC004B6C8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA248CBC14BB35EC004B6C8A /* FallingBricksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FallingBricksTests.h; sourceTree = "<group>"; };
+		AA248CBD14BB35EC004B6C8A /* FallingBricksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FallingBricksTests.m; sourceTree = "<group>"; };
+		AA248CC714BB3672004B6C8A /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		AA248CC814BB3672004B6C8A /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		AA248CD814BB387F004B6C8A /* BrickModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrickModel.h; sourceTree = "<group>"; };
+		AA248CD914BB387F004B6C8A /* BrickModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrickModel.m; sourceTree = "<group>"; };
+		AA248CDB14BB3B8F004B6C8A /* BrickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrickView.h; sourceTree = "<group>"; };
+		AA248CDC14BB3B8F004B6C8A /* BrickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrickView.m; sourceTree = "<group>"; };
+		AA248CE314BC771B004B6C8A /* Matrix2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix2D.h; sourceTree = "<group>"; };
+		AA248CE414BC771B004B6C8A /* Matrix2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix2D.m; sourceTree = "<group>"; };
+		AA248CE514BC771B004B6C8A /* Vector2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2D.h; sourceTree = "<group>"; };
+		AA248CE614BC771B004B6C8A /* Vector2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector2D.m; sourceTree = "<group>"; };
+		AA8E742A14E2F02F00379CB1 /* EngineDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngineDelegate.h; sourceTree = "<group>"; };
+		AAC4ACC914BE012800C17844 /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		AAC4ACCA14BE012800C17844 /* Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edge.m; sourceTree = "<group>"; };
+		AAFE0A6214D557F500619DC5 /* BrickController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrickController.h; sourceTree = "<group>"; };
+		AAFE0A6314D557F500619DC5 /* BrickController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrickController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA248C8B14BB35EC004B6C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA248C9314BB35EC004B6C8A /* UIKit.framework in Frameworks */,
+				AA248C9514BB35EC004B6C8A /* Foundation.framework in Frameworks */,
+				AA248C9714BB35EC004B6C8A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA248CAB14BB35EC004B6C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA248CB114BB35EC004B6C8A /* SenTestingKit.framework in Frameworks */,
+				AA248CB214BB35EC004B6C8A /* UIKit.framework in Frameworks */,
+				AA248CB314BB35EC004B6C8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0F1F6B14D5DA5F00ABA8B5 /* Rects */ = {
+			isa = PBXGroup;
+			children = (
+				AAFE0A6214D557F500619DC5 /* BrickController.h */,
+				AAFE0A6314D557F500619DC5 /* BrickController.m */,
+				AA248CD814BB387F004B6C8A /* BrickModel.h */,
+				AA248CD914BB387F004B6C8A /* BrickModel.m */,
+				AA248CDB14BB3B8F004B6C8A /* BrickView.h */,
+				AA248CDC14BB3B8F004B6C8A /* BrickView.m */,
+			);
+			name = Rects;
+			sourceTree = "<group>";
+		};
+		AA0F1F6C14D5DA8000ABA8B5 /* Circles */ = {
+			isa = PBXGroup;
+			children = (
+				AA0F1F6D14D5DAB600ABA8B5 /* CircleController.h */,
+				AA0F1F6E14D5DAB600ABA8B5 /* CircleController.m */,
+				AA0F1F7014D5DAC800ABA8B5 /* CircleModel.h */,
+				AA0F1F7114D5DAC800ABA8B5 /* CircleModel.m */,
+				AA0F1F7314D5DAD600ABA8B5 /* CircleView.h */,
+				AA0F1F7414D5DAD600ABA8B5 /* CircleView.m */,
+			);
+			name = Circles;
+			sourceTree = "<group>";
+		};
+		AA248C8314BB35EC004B6C8A = {
+			isa = PBXGroup;
+			children = (
+				AA248C9814BB35EC004B6C8A /* FallingBricks */,
+				AA248CB614BB35EC004B6C8A /* FallingBricksTests */,
+				AA248C9114BB35EC004B6C8A /* Frameworks */,
+				AA248C8F14BB35EC004B6C8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA248C8F14BB35EC004B6C8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA248C8E14BB35EC004B6C8A /* FallingBricks.app */,
+				AA248CAF14BB35EC004B6C8A /* FallingBricksTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA248C9114BB35EC004B6C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA248C9214BB35EC004B6C8A /* UIKit.framework */,
+				AA248C9414BB35EC004B6C8A /* Foundation.framework */,
+				AA248C9614BB35EC004B6C8A /* CoreGraphics.framework */,
+				AA248CB014BB35EC004B6C8A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA248C9814BB35EC004B6C8A /* FallingBricks */ = {
+			isa = PBXGroup;
+			children = (
+				AA248CA114BB35EC004B6C8A /* AppDelegate.h */,
+				AA248CA214BB35EC004B6C8A /* AppDelegate.m */,
+				AA248CA414BB35EC004B6C8A /* MainStoryboard.storyboard */,
+				AA8E742A14E2F02F00379CB1 /* EngineDelegate.h */,
+				AA248CA714BB35EC004B6C8A /* FallingBricksController.h */,
+				AA248CA814BB35EC004B6C8A /* FallingBricksController.m */,
+				AA248CC714BB3672004B6C8A /* Engine.h */,
+				AA248CC814BB3672004B6C8A /* Engine.m */,
+				AAFE0A6114D5575E00619DC5 /* Objects */,
+				AAFE0A5C14D5533900619DC5 /* Edge */,
+				AAFE0A5A14D552F000619DC5 /* EngineSupport */,
+				AA248C9914BB35EC004B6C8A /* Supporting Files */,
+			);
+			path = FallingBricks;
+			sourceTree = "<group>";
+		};
+		AA248C9914BB35EC004B6C8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA248C9A14BB35EC004B6C8A /* FallingBricks-Info.plist */,
+				AA248C9B14BB35EC004B6C8A /* InfoPlist.strings */,
+				AA248C9E14BB35EC004B6C8A /* main.m */,
+				AA248CA014BB35EC004B6C8A /* FallingBricks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA248CB614BB35EC004B6C8A /* FallingBricksTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA248CBC14BB35EC004B6C8A /* FallingBricksTests.h */,
+				AA248CBD14BB35EC004B6C8A /* FallingBricksTests.m */,
+				AA248CB714BB35EC004B6C8A /* Supporting Files */,
+			);
+			path = FallingBricksTests;
+			sourceTree = "<group>";
+		};
+		AA248CB714BB35EC004B6C8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA248CB814BB35EC004B6C8A /* FallingBricksTests-Info.plist */,
+				AA248CB914BB35EC004B6C8A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAFE0A5A14D552F000619DC5 /* EngineSupport */ = {
+			isa = PBXGroup;
+			children = (
+				AA248CE514BC771B004B6C8A /* Vector2D.h */,
+				AA248CE614BC771B004B6C8A /* Vector2D.m */,
+				AA248CE314BC771B004B6C8A /* Matrix2D.h */,
+				AA248CE414BC771B004B6C8A /* Matrix2D.m */,
+			);
+			name = EngineSupport;
+			sourceTree = "<group>";
+		};
+		AAFE0A5C14D5533900619DC5 /* Edge */ = {
+			isa = PBXGroup;
+			children = (
+				AAC4ACC914BE012800C17844 /* Edge.h */,
+				AAC4ACCA14BE012800C17844 /* Edge.m */,
+			);
+			name = Edge;
+			sourceTree = "<group>";
+		};
+		AAFE0A6114D5575E00619DC5 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				AA0F1F7614D5E93500ABA8B5 /* ObjectModel.h */,
+				AA0F1F7714D5E93600ABA8B5 /* ObjectModel.m */,
+				AA0F1F6B14D5DA5F00ABA8B5 /* Rects */,
+				AA0F1F6C14D5DA8000ABA8B5 /* Circles */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA248C8D14BB35EC004B6C8A /* FallingBricks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA248CC114BB35EC004B6C8A /* Build configuration list for PBXNativeTarget "FallingBricks" */;
+			buildPhases = (
+				AA248C8A14BB35EC004B6C8A /* Sources */,
+				AA248C8B14BB35EC004B6C8A /* Frameworks */,
+				AA248C8C14BB35EC004B6C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FallingBricks;
+			productName = FallingBricks;
+			productReference = AA248C8E14BB35EC004B6C8A /* FallingBricks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA248CAE14BB35EC004B6C8A /* FallingBricksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA248CC414BB35EC004B6C8A /* Build configuration list for PBXNativeTarget "FallingBricksTests" */;
+			buildPhases = (
+				AA248CAA14BB35EC004B6C8A /* Sources */,
+				AA248CAB14BB35EC004B6C8A /* Frameworks */,
+				AA248CAC14BB35EC004B6C8A /* Resources */,
+				AA248CAD14BB35EC004B6C8A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA248CB514BB35EC004B6C8A /* PBXTargetDependency */,
+			);
+			name = FallingBricksTests;
+			productName = FallingBricksTests;
+			productReference = AA248CAF14BB35EC004B6C8A /* FallingBricksTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA248C8514BB35EC004B6C8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Singapore";
+			};
+			buildConfigurationList = AA248C8814BB35EC004B6C8A /* Build configuration list for PBXProject "FallingBricks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA248C8314BB35EC004B6C8A;
+			productRefGroup = AA248C8F14BB35EC004B6C8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA248C8D14BB35EC004B6C8A /* FallingBricks */,
+				AA248CAE14BB35EC004B6C8A /* FallingBricksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA248C8C14BB35EC004B6C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA248C9D14BB35EC004B6C8A /* InfoPlist.strings in Resources */,
+				AA248CA614BB35EC004B6C8A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA248CAC14BB35EC004B6C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA248CBB14BB35EC004B6C8A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA248CAD14BB35EC004B6C8A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA248C8A14BB35EC004B6C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA248C9F14BB35EC004B6C8A /* main.m in Sources */,
+				AA248CA314BB35EC004B6C8A /* AppDelegate.m in Sources */,
+				AA248CA914BB35EC004B6C8A /* FallingBricksController.m in Sources */,
+				AA248CC914BB3672004B6C8A /* Engine.m in Sources */,
+				AA248CDA14BB3880004B6C8A /* BrickModel.m in Sources */,
+				AA248CDD14BB3B8F004B6C8A /* BrickView.m in Sources */,
+				AA248CE714BC771B004B6C8A /* Matrix2D.m in Sources */,
+				AA248CE814BC771B004B6C8A /* Vector2D.m in Sources */,
+				AAC4ACCB14BE012800C17844 /* Edge.m in Sources */,
+				AAFE0A6414D557F500619DC5 /* BrickController.m in Sources */,
+				AA0F1F6F14D5DAB600ABA8B5 /* CircleController.m in Sources */,
+				AA0F1F7214D5DAC800ABA8B5 /* CircleModel.m in Sources */,
+				AA0F1F7514D5DAD600ABA8B5 /* CircleView.m in Sources */,
+				AA0F1F7814D5E93600ABA8B5 /* ObjectModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA248CAA14BB35EC004B6C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA248CBE14BB35EC004B6C8A /* FallingBricksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA248CB514BB35EC004B6C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA248C8D14BB35EC004B6C8A /* FallingBricks */;
+			targetProxy = AA248CB414BB35EC004B6C8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA248C9B14BB35EC004B6C8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA248C9C14BB35EC004B6C8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA248CA414BB35EC004B6C8A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA248CA514BB35EC004B6C8A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AA248CB914BB35EC004B6C8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA248CBA14BB35EC004B6C8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA248CBF14BB35EC004B6C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AA248CC014BB35EC004B6C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA248CC214BB35EC004B6C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallingBricks/FallingBricks-Prefix.pch";
+				INFOPLIST_FILE = "FallingBricks/FallingBricks-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA248CC314BB35EC004B6C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallingBricks/FallingBricks-Prefix.pch";
+				INFOPLIST_FILE = "FallingBricks/FallingBricks-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA248CC514BB35EC004B6C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FallingBricks.app/FallingBricks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallingBricks/FallingBricks-Prefix.pch";
+				INFOPLIST_FILE = "FallingBricksTests/FallingBricksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AA248CC614BB35EC004B6C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FallingBricks.app/FallingBricks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallingBricks/FallingBricks-Prefix.pch";
+				INFOPLIST_FILE = "FallingBricksTests/FallingBricksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA248C8814BB35EC004B6C8A /* Build configuration list for PBXProject "FallingBricks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA248CBF14BB35EC004B6C8A /* Debug */,
+				AA248CC014BB35EC004B6C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA248CC114BB35EC004B6C8A /* Build configuration list for PBXNativeTarget "FallingBricks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA248CC214BB35EC004B6C8A /* Debug */,
+				AA248CC314BB35EC004B6C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA248CC414BB35EC004B6C8A /* Build configuration list for PBXNativeTarget "FallingBricksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA248CC514BB35EC004B6C8A /* Debug */,
+				AA248CC614BB35EC004B6C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA248C8514BB35EC004B6C8A /* Project object */;
+}
